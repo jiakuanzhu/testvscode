@@ -3,9 +3,9 @@ import matplotlib as mpl
 import numpy as np
 
 
-def newmethod891():
+def plotsin():
     x = np.linspace(0, 20, 100)  # Create a list of evenly-spaced numbers over the range
     plt.plot(x, np.sin(x))       # Plot the sine of each x point
     plt.show()    
 
-newmethod891()    
+plotsin()    
